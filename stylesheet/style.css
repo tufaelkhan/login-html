@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     background: black;
 }
+
 .login-box{
     position: relative;
     width: 400px;
