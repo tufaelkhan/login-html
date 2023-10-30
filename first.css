@@ -1,0 +1,33 @@
+div {
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+    padding: 16px;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.6s;
+    transform: translate(0);
+    font-weight: 400;
+}
+div:hover{
+    color: black;
+}
+div p{
+    margin: 0;
+}
+
+div::before{
+    content: "";
+    position: absolute;
+    top: -75px;
+    left: -45px;
+    z-index: -1;
+    background: skyblue;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    transition: 0.6s;
+}
+div:hover::before{
+    transform: scale(5);
+}
