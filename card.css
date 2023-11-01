@@ -40,7 +40,7 @@ section::after{
 }
 .container .card{
     position: relative;
-    width: 32px;
+    width: 400px;
     height: 400px;
     margin: 20px 40px;
     display: flex;
